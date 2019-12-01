@@ -6,13 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  name = 'Angular 5';
+  name = 'Angular 8: Canvas & Javascript Clock Face & Working Hands Coding Demo';
 
 
 
-    canvasJavascript() {
+canvasJavascript() {
 
-      var canvas = document.getElementById("cshbot_canvas2");
+      var canvas = document.getElementById("itc111_canvas");
 var ctx = canvas.getContext("2d");
 var radius = canvas.height / 2;
 ctx.translate(radius, radius);
