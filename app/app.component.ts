@@ -12,7 +12,7 @@ export class AppComponent {
 
 canvasJavascript() {
 
-      var canvas = document.getElementById("itc111_canvas");
+var canvas = document.getElementById("itc111_canvas");
 var ctx = canvas.getContext("2d");
 var radius = canvas.height / 2;
 ctx.translate(radius, radius);
